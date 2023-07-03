@@ -1,0 +1,41 @@
+[
+    {
+        "topname": "管理员",
+        "contents": [
+            {
+                "path": "/tdelete",
+                "name": "Pie"
+            },
+            {
+                "path": "/table",
+                "name": "Line"
+            }
+        ]
+    },
+    {
+        "topname": "管理",
+        "contents": [
+            {
+                "path": "/tdelete",
+                "name": "添加"
+            },
+            {
+                "path": "/table",
+                "name": "修改"
+            }
+        ]
+    },
+    {
+        "topname": "视图",
+        "contents": [
+            {
+                "path": "/tdelete",
+                "name": "echart"
+            },
+            {
+                "path": "/table",
+                "name": "Echarts"
+            }
+        ]
+    }
+]

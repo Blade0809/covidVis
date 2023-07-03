@@ -1,0 +1,390 @@
+ html,
+ body,
+ .max {
+     /* width: 100%; */
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ .max {
+     overflow: hidden;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+
+ }
+
+ .max img {
+     height: 100%;
+     width: 100%;
+     border: 3px solid gray;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+
+ .d1:hover {
+     height: 400px;
+     margin-top: 200px;
+     margin-left: 554px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d1 {
+     position: relative;
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: 200px;
+     margin-left: 554px;
+     /* margin: 150px 200px; */
+     width: 400px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+     z-index: 9999;
+ }
+
+ .d1 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+ }
+
+ .d2 {
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -468px;
+     margin-left: 1052px;
+     /* margin: 150px 200px; */
+     width: 400px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+     position: relative;
+ }
+
+ .d2:hover {
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -468px;
+     margin-left: 1052px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d2 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+ }
+
+ .d3:hover {
+     height: 800px;
+     margin-top: -200px;
+     margin-left: 124px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d3 {
+     position: relative;
+     transition: all 0.8s;
+     height: 800px;
+     /* margin: 600px; */
+     margin-top: -200px;
+     margin-left: -160px;
+     /* margin: 150px 200px; */
+     width: 800px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+ }
+
+ .content {
+     position: relative;
+ }
+
+ .d3 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+     z-index: 99999;
+ }
+
+ .d4:hover {
+     height: 400px;
+     margin-top: -1215px;
+     margin-left: 273px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d4 {
+     position: relative;
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -1215px;
+     margin-left: 273px;
+     /* margin: 150px 200px; */
+     width: 400px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+ }
+
+ .d4 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+
+ }
+
+ .d5:hover {
+     height: 400px;
+     margin-top: -465px;
+     margin-left: 770px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d5 {
+     position: relative;
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -465px;
+     margin-left: 770px;
+     /* margin: 150px 200px; */
+     width: 400px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+ }
+
+ .d5 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+
+ }
+
+ .d5 img:hover {
+     z-index: 9999;
+ }
+
+ .d6:hover {
+     height: 400px;
+     margin-top: -402px;
+     margin-left: 1333px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d6 {
+     position: relative;
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -402px;
+     margin-left: 1333px;
+     /* margin: 150px 200px; */
+     width: 400px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+
+ }
+
+ .d6 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+
+ }
+
+ .d7:hover {
+     height: 400px;
+     margin-top: 163px;
+     margin-left: 1333px;
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     z-index: 9999;
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d7 {
+     position: relative;
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: 163px;
+     margin-left: 1333px;
+     /* margin: 150px 200px; */
+     width: 400px;
+     transform: rotate(45deg);
+     overflow: hidden;
+     border: 3px solid gray;
+
+ }
+
+ .d7 img {
+     max-width: 100%;
+     transform: rotate(-45deg) scale(1.42);
+
+ }
+
+
+ .d8 {
+     position: relative;
+     transition: all 0.8s;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -296px;
+     margin-left: 822px;
+     /* margin: 150px 200px; */
+     width: 500px;
+     transform: rotate(45deg);
+     overflow: hidden;
+
+     max-width: 100%;
+ }
+
+ .d8:hover {
+     z-index: 9999;
+     height: 400px;
+     /* margin: 600px; */
+     margin-top: -296px;
+     margin-left: 822px;
+     /* margin-left: 1052px; */
+     max-width: 100%;
+     cursor: pointer;
+     transform: rotate(45deg) scale(1.1);
+     /*transform:变形属性，scale：缩放1.1倍 */
+ }
+
+ .d8 img {
+     width: 100%;
+     height: 100%;
+ }
+
+ /* 触发弹窗图片的样式 */
+ .myImg {
+     position: relative;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ /* 弹窗背景 */
+ .modal {
+     z-index: 9999;
+     position: fixed;
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     z-index: 1;
+     /* Sit on top */
+     padding: 50px;
+     /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: rgb(0, 0, 0);
+     /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.9);
+     /* Black w/ opacity */
+ }
+
+ /* 图片 */
+ .modal-content {
+     margin: auto;
+     display: block;
+     width: 80%;
+     /* height: 50%; */
+     max-width: 900px;
+     /* max-height: 700px; */
+ }
+
+ /* 添加动画 */
+ .modal-content,
+ #caption {
+     -webkit-animation-name: zoom;
+     -webkit-animation-duration: 0.6s;
+     animation-name: zoom;
+     animation-duration: 0.6s;
+ }
+
+ @-webkit-keyframes zoom {
+     from {
+         -webkit-transform: scale(0)
+     }
+
+     to {
+         -webkit-transform: scale(1)
+     }
+ }
+
+ @keyframes zoom {
+     from {
+         transform: scale(0)
+     }
+
+     to {
+         transform: scale(1)
+     }
+ }
+
+ /* 关闭按钮 */
+ .close {
+     position: absolute;
+     top: 80px;
+     right: 135px;
+     color: #f1f1f1;
+     font-size: 40px;
+     font-weight: bold;
+     transition: 0.3s;
+ }
+
+ /* .close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+ /* 小屏幕中图片宽度为 100% */
+ @media only screen and (max-width: 700px) {
+     .modal-content {
+         width: 100%;
+     }
+ }
+
+ .modal {
+     z-index: 9999;
+ }
